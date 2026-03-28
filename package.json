@@ -1,0 +1,20 @@
+{
+  "name": "channeltalk-cx-alert",
+  "version": "1.0.0",
+  "description": "페이쌤 CX파트너팀 - 채널톡 상담 모니터링 & 슬랙 알림 시스템",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node -e \"require('./src/keywords'); console.log('키워드 모듈 OK')\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@slack/web-api": "^7.15.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
