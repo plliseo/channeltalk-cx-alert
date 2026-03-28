@@ -31,7 +31,7 @@
 
 ### 1단계 · 프로젝트 설치
 ```bash
-git clone https://github.com/your-repo/channeltalk-cx-alert.git
+git clone https://github.com/plliseo/channeltalk-cx-alert.git
 cd channeltalk-cx-alert
 npm install
 ```
@@ -68,7 +68,7 @@ cp .env.example .env
 
 1. **채널톡 관리자 콘솔** → 설정 → 개발 → Webhook
 2. `+ 웹훅 추가` 클릭
-3. URL 입력: `https://서버주소:3000/webhook`
+3. URL 입력: `https://channeltalk-cx-alert-production.up.railway.app/webhook`
 4. 이벤트 선택:
    - ✅ `message` (새 메시지)
    - ✅ `userChatOpened` (새 상담 시작)
